@@ -7,8 +7,8 @@ A smart low-code developer tool that lets admins **create data models from a web
 ## 📸 Dashboard Preview
 
 
-| ![dash](screenshots/dashboard.png) | ![form](screenshots/model_form.png) | ![records](screenshots/records.png) |
-
+| (screenshots/s1.png) | (screenshots/s2.png) | (screenshots/s3.png) |(screenshots/s4.png) |
+(screenshots/s5.png) |
 
 
 ---
