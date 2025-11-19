@@ -51,27 +51,8 @@ A smart low-code developer tool that lets admins **create data models from a web
 
 ---
 
-## 🧪 Example Model JSON
+## 🧪 How to Run
 
-```json
-{
-  "name": "Employee",
-  "fields": [
-    { "name": "name", "type": "string", "required": true },
-    { "name": "age", "type": "number" },
-    { "name": "isActive", "type": "boolean", "default": true }
-  ],
-  "ownerField": "ownerId",
-  "rbac": { 
-    "Admin": ["all"],
-    "Manager": ["create", "read", "update"],
-    "Viewer": ["read"] 
-  }
-}
-
----
-
-## How to Run
 
 -backend
 cd backend
