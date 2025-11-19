@@ -1,0 +1,30 @@
+{
+  "name": "Vmware",
+  "tableName": "vm",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "ram",
+      "type": "number"
+    }
+  ],
+  "ownerField": "ownerId",
+  "rbac": {
+    "Admin": [
+      "all"
+    ],
+    "Manager": [
+      "all"
+    ],
+    "Viewer": [
+      "all"
+    ],
+    "Owner": [
+      "all"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Employee",
+  "tableName": "employeDetails",
+  "fields": [
+    {
+      "name": "Name",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "email",
+      "type": "string"
+    }
+  ],
+  "ownerField": "e1",
+  "rbac": {
+    "Admin": [
+      "all"
+    ],
+    "Viewer": [
+      "read"
+    ]
+  }
+}

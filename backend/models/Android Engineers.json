@@ -1,0 +1,31 @@
+{
+  "name": "Android Engineers",
+  "tableName": "androidDevelopers",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "email id",
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    {
+      "name": "Published App",
+      "type": "boolean",
+      "required": true
+    }
+  ],
+  "ownerField": "android",
+  "rbac": {
+    "Admin": [
+      "all"
+    ],
+    "Viewer": [
+      "read"
+    ]
+  }
+}

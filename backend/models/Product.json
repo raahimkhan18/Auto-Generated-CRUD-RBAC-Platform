@@ -1,0 +1,42 @@
+{
+  "name": "Product",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "price",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "inStock",
+      "type": "boolean"
+    },
+    {
+      "name": "description",
+      "type": "text"
+    }
+  ],
+  "ownerField": "product1",
+  "rbac": {
+    "Admin": [
+      "all"
+    ],
+    "Manager": [
+      "create",
+      "read",
+      "update"
+    ],
+    "Viewer": [
+      "read"
+    ],
+    "Owner": [
+      "read",
+      "update",
+      "delete"
+    ]
+  }
+}
