@@ -53,15 +53,14 @@ A smart low-code developer tool that lets admins **create data models from a web
 
 ## 🧪 How to Run
 
-
--backend
-cd backend
-npm install
+1.backend>
+cd backend>
+npm install>
 npm run dev
 
--frontend
-cd frontend
-npm install
+2.frontend>
+cd frontend>
+npm install>
 npm run dev
 
 ---
