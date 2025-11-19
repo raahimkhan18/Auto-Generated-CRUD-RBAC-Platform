@@ -7,8 +7,13 @@ A smart low-code developer tool that lets admins **create data models from a web
 ## 📸 Dashboard Preview
 
 
-| (screenshots/s1.png) | (screenshots/s2.png) | (screenshots/s3.png) |(screenshots/s4.png) |
-(screenshots/s5.png) |
+| Dashboard | Model Builder | Records |
+|----------|---------------|---------|
+| ![dash](s1.png) | ![form](s2.png) | ![rec](s3.png) |
+
+| RBAC UI | Model JSON Input |
+|---------|------------------|
+| ![rbac](s4.png) | ![json](s5.png) |
 
 
 ---
